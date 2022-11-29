@@ -9,7 +9,7 @@ with open("Readme.md") as f:
 
 install_requires = [
     "flask-ask-sdk~=1.0.0",
-    "pyngrok~=5.1.0",
+    "pyngrok>=5.1,<5.3",
     "ask-smapi-sdk~=1.0.0",
     "ask_smapi_model>=1.13.1,<1.15.0",
     "peewee~=3.14.4",
